@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B433C457-E140-B164-188E-37E30B577D50}") = "Nutmageddon", "Assembly-CSharp-firstpass.csproj", "{FA95039B-188A-E2C5-F025-054EC0950628}"
+EndProject
+Project("{B433C457-E140-B164-188E-37E30B577D50}") = "Nutmageddon", "Assembly-CSharp.csproj", "{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}"
+EndProject
+Project("{B433C457-E140-B164-188E-37E30B577D50}") = "Nutmageddon", "Assembly-CSharp-Editor.csproj", "{50E88C4C-CDBC-7697-3453-8FF0356AC87F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA95039B-188A-E2C5-F025-054EC0950628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA95039B-188A-E2C5-F025-054EC0950628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA95039B-188A-E2C5-F025-054EC0950628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA95039B-188A-E2C5-F025-054EC0950628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E88C4C-CDBC-7697-3453-8FF0356AC87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E88C4C-CDBC-7697-3453-8FF0356AC87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E88C4C-CDBC-7697-3453-8FF0356AC87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E88C4C-CDBC-7697-3453-8FF0356AC87F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

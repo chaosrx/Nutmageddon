@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1204FDF8-B994-A8ED-EE93-58DC5C67FC53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dBackground.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dBullet.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dCameraShake.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToExplode.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToSpawn.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToStamp.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dColliderlessImpact.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dCompoundPart.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToShoot.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToSlice.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToThrow.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dExplosion.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dFlipper.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dFollow.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dGui.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dGun.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dHealDamage.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dMovingTarget.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerCamera.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerCar.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerSpaceship.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dRandomizeSound.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dRepeatStamp.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dShake.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dSpawner.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dTile.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dWaypoints.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dWheel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dAutoCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCalculateMass.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dColliderBuilder.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCollisionHandler.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dDestroyer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dDestructible.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeColliderCell.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEditor.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEvents.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFixture.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFixtureGroup.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfill.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfillIsland.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfillPixel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFracturer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHelper.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHelper_Editor.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHit.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dLinkedList.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonColliderCell.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPool.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPopupAttribute.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dQuad.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dQuadFracturer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRect.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRequirements.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRetainVelocity.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSnapshot.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSorter.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSplitGroup.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSplitPixel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dVector2.cs" />
+     <Compile Include="Assets\RotateSprite.cs" />
+     <Compile Include="Assets\Scripts\Camera\GameCamera.cs" />
+     <Compile Include="Assets\Scripts\Camera\TouchCamera.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\OverlayManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\Particle.cs" />
+     <Compile Include="Assets\Scripts\Manager\ParticleManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\Team.cs" />
+     <Compile Include="Assets\Scripts\Manager\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Player\Aim.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Terrain\BinaryImage.cs" />
+     <Compile Include="Assets\Scripts\Terrain\DestructibleSprite.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Explosive.cs" />
+     <Compile Include="Assets\Scripts\Terrain\GenerateTerrain.cs" />
+     <Compile Include="Assets\Scripts\Terrain\SimplexNoiseGenerator.cs" />
+     <Compile Include="Assets\Scripts\UI\PlayerTag.cs" />
+     <Compile Include="Assets\Scripts\UI\RotateCircle.cs" />
+     <Compile Include="Assets\Scripts\UI\TagManager.cs" />
+     <Compile Include="Assets\Scripts\UI\TimeDisplay.cs" />
+     <Compile Include="Assets\Scripts\UI\VirtualJoystick.cs" />
+     <Compile Include="Assets\Scripts\UI\WeaponWheel.cs" />
+     <None Include="Assets\Destructible 2D\Shaders\Diffuse.shader" />
+     <None Include="Assets\Destructible 2D\Shaders\Outline.shader" />
+     <None Include="Assets\Destructible 2D\Shaders\Default.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Destructible 2D\Shaders\Keep Alpha.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FA95039B-188A-E2C5-F025-054EC0950628}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
