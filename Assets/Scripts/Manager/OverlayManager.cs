@@ -176,7 +176,10 @@ public class OverlayManager : MonoBehaviour {
                     tags[i].transform.SetAsLastSibling();
             }
             else
+            {
                 tags[i].transform.GetChild(0).gameObject.SetActive(false);
+                tags[i].transform.GetChild(1).gameObject.SetActive(false);
+            }
         }
 
         // Reticle Manager
