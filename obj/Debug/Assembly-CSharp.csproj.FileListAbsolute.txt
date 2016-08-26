@@ -20,3 +20,6 @@ C:\Users\Jacob\Documents\Nutmageddon\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Jacob\Documents\Nutmageddon\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Jacob\Documents\Nutmageddon\obj\Debug\Assembly-CSharp.dll
 C:\Users\Jacob\Documents\Nutmageddon\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Jacob\Desktop\Nutmageddon\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Desktop\Nutmageddon\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jacob\Desktop\Nutmageddon\obj\Debug\Assembly-CSharp.pdb

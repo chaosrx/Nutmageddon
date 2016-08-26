@@ -115,7 +115,12 @@
      <Compile Include="Assets\Scripts\Manager\OverlayManager.cs" />
      <Compile Include="Assets\Scripts\Manager\Particle.cs" />
      <Compile Include="Assets\Scripts\Manager\ParticleManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\Serializer.cs" />
      <Compile Include="Assets\Scripts\Manager\Team.cs" />
+     <Compile Include="Assets\Scripts\Manager\TeamData.cs" />
+     <Compile Include="Assets\Scripts\Manager\TeamEditor.cs" />
+     <Compile Include="Assets\Scripts\Manager\Temp.cs" />
+     <Compile Include="Assets\Scripts\Manager\Variables.cs" />
      <Compile Include="Assets\Scripts\Manager\Weapon.cs" />
      <Compile Include="Assets\Scripts\Player\Aim.cs" />
      <Compile Include="Assets\Scripts\Player\Player.cs" />
@@ -125,6 +130,7 @@
      <Compile Include="Assets\Scripts\Terrain\Explosive.cs" />
      <Compile Include="Assets\Scripts\Terrain\GenerateTerrain.cs" />
      <Compile Include="Assets\Scripts\Terrain\SimplexNoiseGenerator.cs" />
+     <Compile Include="Assets\Scripts\UI\ItemBob.cs" />
      <Compile Include="Assets\Scripts\UI\PlayerTag.cs" />
      <Compile Include="Assets\Scripts\UI\RotateCircle.cs" />
      <Compile Include="Assets\Scripts\UI\TagManager.cs" />
